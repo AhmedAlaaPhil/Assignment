@@ -85,8 +85,12 @@ public String getAllLinkStatues(){
                 respCode = connection.getResponseCode();
 
                 if(respCode != 200){
-                    statues = "Link "+ links[i]+" is broken";
-                    break;
+
+                    if (statues.equals("All Links Are OK") ){
+                        statues = "Brkoen Links Are : \n" + "Link "+ links[i]+" is broken \n";
+                    } else {
+                        statues = statues + "Link " + links[i] + " is broken \n";
+                    }
                 }
                 else{
 
