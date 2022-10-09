@@ -3,8 +3,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -24,13 +22,13 @@ public class WebUITest {
     @BeforeClass
     public void Init (){
         // set up the web driver manger
-        WebDriverManager.firefoxdriver().setup();
+        WebDriverManager.chromedriver().setup();
         // set up options for chrome driver
-        FirefoxOptions options = new FirefoxOptions();
+        ChromeOptions options = new ChromeOptions();
         // set options to headless mode
         options.addArguments("--headless");
         // init web driver
-        driver = new FirefoxDriver(options);
+        driver = new ChromeDriver(options);
         dynamicTable = new DynamicTable(driver);
         homePage = new HomePage(driver);
         dynamicID = new DynamicID(driver);
