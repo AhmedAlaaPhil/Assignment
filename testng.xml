@@ -4,6 +4,7 @@
     <test name="Test">
         <classes>
             <class name="APITest"/>
+            <class name="WebUITest"/>
         </classes>
     </test>
 </suite>
