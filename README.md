@@ -99,7 +99,7 @@ Report LINK : [Calliope](https://app.calliope.pro/profiles/4528/reports)
 1. when uploading a testNG.xml  test suite with more than one class the report shows only the first class.
  
 ### *Calliopes new feature*
-1. ready made scripts for java selenium and restassured in the documentation section.
+1. support HTML report.
  
  
  
