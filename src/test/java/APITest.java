@@ -1,12 +1,15 @@
+import apis.Calliope;
 import apis.PetStore;
 import io.restassured.http.Header;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 import utilities.StringHelper;
 
+import java.io.File;
 import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
@@ -16,6 +19,8 @@ public class APITest {
 
     // pet store instants
    PetStore petStore = new PetStore();
+   // calliope instants
+   Calliope calliope = new Calliope();
    // request headers
    Header header = new Header("Content-Type", "application/json");
 
@@ -89,6 +94,22 @@ public class APITest {
 
 
 
+    }
+
+    @AfterSuite
+    public void sendTestReportToCalliope(){
+        Header header1 = new Header("Content-Type" , "multipart/form-data; boundary=<calculated when request is sent>");
+        Header header2 = new Header("x-api-key" , calliope.getxAPIKey());
+            given()
+                    .header(header1)
+                    .header(header2)
+                    .baseUri(calliope.getBaseURL())
+                    .multiPart(new File(calliope.getMyTestResultsTestNGFile()))
+                    .when()
+                    .post(calliope.getMyTestResultsTestNGPathURL())
+                    .then()
+                    .assertThat()
+                    .statusCode(201);
     }
 
 }
