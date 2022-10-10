@@ -82,7 +82,7 @@ the assertion is that get does not return an empty list. as we created an pet us
 I used jenkins on an AWS EC2 instance
  
  
-1. navigate to the  [Jenkins](http://ec2-52-87-171-224.compute-1.amazonaws.com:8080/)
+1. navigate to the  [Jenkins](http://ec2-67-202-27-144.compute-1.amazonaws.com:8080/)
 2. user the test credentials to login :
 username :  testuser
 password :  abc123
