@@ -64,14 +64,15 @@ the assertion is that get does not return an empty list. as we created an pet us
 **prerequisite**
 1. JAVA jdk 11 or above installed in the system
 2. Maven 3.8.0 or above installed in the system (used maven 3.8.6)
-3. optional intellij ID
+3. optional intellij IDE
  
 **Run from command line**
-1. navigate to project directory
-2. open cmd in the project directory
-3. write **mvn test** and press enter
+1. clone project to local environment : git clone https://github.com/AhmedAlaaPhil/Assignment.git
+2. navigate to project directory
+3. open cmd in the project directory
+4. write **mvn test** and press enter
  
-**Run from intellij ID**
+**Run from intellij IDE**
 1. open project in intellij ID
 2. run testng.xml file
  
@@ -95,16 +96,17 @@ I used Calliopes TestNG POST API to update the test report after the testsuite r
 Report LINK : [Calliope](https://app.calliope.pro/profiles/4528/reports)
  
 ### *Calliopes Improvement*
-1. when uploading an testNG.xml  test suite with more than one class the report shows only the first class.
+1. when uploading a testNG.xml  test suite with more than one class the report shows only the first class.
  
 ### *Calliopes new feature*
-1. ready made scripts for java selenuim and restassured in the decumentaions section.
+1. ready made scripts for java selenium and restassured in the documentation section.
  
  
  
-## *TODO*
-1. add more helper class to cover timeout and wait for selenuim.
-2. Improve jenkins reporting and layout.
+## *Next steps In this project*
+1. add more helper class to cover timeout and wait for selenium.
+2. Improve jenkins reporting and layout
+
  
  
  
