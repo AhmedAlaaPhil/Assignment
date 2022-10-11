@@ -80,7 +80,13 @@ the assertion is that get does not return an empty list. as we created an pet us
 ## **CI/CD :**
  
 I used jenkins on an AWS EC2 instance
- 
+
+**P.S**
+
+1. I am using an AWS educational account. All the resources are shut down automatically after 4 hours. Incase of an issue in accessing Jenkins please contact me and I will rerun the EC2 instance asap. 
+2. There is a video showing the AWS EC2 instance and Jenkins demo in JenkinsDemo directory in this repo.
+
+**Steps**
  
 1. navigate to the  [Jenkins](http://ec2-67-202-27-144.compute-1.amazonaws.com:8080/)
 2. user the test credentials to login :
@@ -88,11 +94,6 @@ username :  testuser
 password :  abc123
 3. run by pressing run button on TechnicalAssignment project
  
-**P.S**
-
-1. I am using an AWS educational account. All the resources are shut down automatically after 4 hours. Incase of an issue in accessing Jenkins please contact me and I will rerun the EC2 instance asap. 
-2. There is a video showing the AWS EC2 instance and Jenkins demo in JenkinsDemo directory in this repo.
-
  
 ## **Calliope:**
  
