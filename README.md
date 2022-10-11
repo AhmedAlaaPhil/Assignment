@@ -88,6 +88,10 @@ username :  testuser
 password :  abc123
 3. run by pressing run button on TechnicalAssignment project
  
+**P.S**
+1.I am using an AWS educational account. All the resources are shut down automatically after 4 hours. Incase of an issue in accessing Jenkins please contact me and I will rerun the EC2 instance asap. 
+2.There is a video showing the AWS EC2 instance and Jenkins demo in JenkinsDemo directory in this repo.
+
  
 ## **Calliope:**
  
@@ -101,6 +105,8 @@ Report LINK : [Calliope](https://app.calliope.pro/profiles/4528/reports)
 ### *Calliopes new feature*
 1. support HTML report.
  
+**P.S**
+If one is trying to access Calliope report and getting unauthorized contact me to add his/her email the company access list  
  
  
 ## *Next steps In this project*
