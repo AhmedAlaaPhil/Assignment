@@ -101,7 +101,7 @@ password :  abc123
 **CircleCI**
 1. navigate to the  [CircleCI](https://app.circleci.com/pipelines/github/AhmedAlaaPhil/Assignment)
 2. Click on any build to see the stages 
-3. To run I need to add your email to Team member To run  [Join Team Link](https://app.circleci.com/launchpad/invited?return-to=https%3A%2F%2Fapp.circleci.com%2Fpipelines%2Fgithub%2FAhmedAlaaPhil%2FAssignment%3Finvite%3Dtrue&inviter=906d097c-7f1f-4ba0-a3a8-c05387f0e0dd&invitePage=pipelines).
+3. Currently It is read only mood
  
  
 ## **Calliope:**
