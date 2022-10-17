@@ -12,11 +12,11 @@ jobs:
       - checkout
       - browser-tools/install-chrome
       - browser-tools/install-chromedriver
-        - run:
-            name: Check install
-            command: |
-              google-chrome --version
-              chromedriver --version
+      - run:
+        name: Check install
+        command: |
+          google-chrome --version
+          chromedriver --version
       - run: mvn dependency:go-offline # gets the project dependencies 
       - run: mvn package
 
