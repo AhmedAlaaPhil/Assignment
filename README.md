@@ -87,6 +87,7 @@ I used jenkins on an AWS EC2 instance
 2. There is a video showing the AWS EC2 instance and Jenkins demo in JenkinsDemo directory in this repo.
 3. I stopped Jenkins as my account is reaching its credit limit and will be started upon request. 
 4. Added circleCI instead of Jenkins
+5. CircleCI run with Every gitHub pull request by webhooks 
 
 **Steps**
  
