@@ -83,16 +83,24 @@ I used jenkins on an AWS EC2 instance
 
 **P.S**
 
-1. I am using an AWS educational account. All the resources are shut down automatically after 4 hours. Incase of an issue in accessing Jenkins please contact me and I will rerun the EC2 instance asap. 
+1. I am using an AWS educational account. All the resources are shut down automatically after 4 hours. Incase of an issue in accessing Jenkins please contact me and I will rerun the EC2 instance asap.
 2. There is a video showing the AWS EC2 instance and Jenkins demo in JenkinsDemo directory in this repo.
+3. I stopped Jenkins as my account is reaching its credit limit and will be started upon request. 
+4. Added circleCI instead of Jenkins
 
 **Steps**
  
+**Deprecated**
 1. navigate to the  [Jenkins](http://ec2-67-202-27-144.compute-1.amazonaws.com:8080/)
 2. user the test credentials to login :
 username :  testuser
 password :  abc123
 3. run by pressing run button on TechnicalAssignment project
+
+**CircleCI**
+1. navigate to the  [CircleCI](https://app.circleci.com/pipelines/github/AhmedAlaaPhil/Assignment)
+2. Click on any build to see the stages 
+3. To run I need to add your email to Team member Then click rerun on any build.
  
  
 ## **Calliope:**
@@ -132,4 +140,6 @@ If one is trying to access Calliope report and getting unauthorized contact me t
  
  
  
+
+
 
