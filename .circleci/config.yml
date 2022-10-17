@@ -7,9 +7,8 @@ jobs:
 
   build:
     docker:
-      - image: 'cimg/node:13.12-browsers'
+      - image: cimg/node:13.12-browsers
     steps:
-      - checkout
       - browser-tools/install-chrome
       - browser-tools/install-chromedriver
       - run:
@@ -17,6 +16,7 @@ jobs:
         command: |
           google-chrome --version
           chromedriver --version
+      - checkout
       - run: mvn dependency:go-offline # gets the project dependencies 
       - run: mvn package
 
