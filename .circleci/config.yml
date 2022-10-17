@@ -4,7 +4,6 @@ version: 2.1
 orbs:
   browser-tools: circleci/browser-tools@x.y
 jobs:
-
   build:
     docker:
       - image: cimg/openjdk:17.0.1
@@ -22,8 +21,6 @@ jobs:
       - run: mvn package
 
 workflows:
-  version: 2
-
-  build-then-test:
+  buildmvn:
     jobs:
       - build
