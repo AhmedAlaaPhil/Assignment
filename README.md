@@ -92,7 +92,7 @@ I used jenkins on an AWS EC2 instance
 **Steps**
  
 **Deprecated**
-1. navigate to the  [Jenkins](http://ec2-67-202-27-144.compute-1.amazonaws.com:8080/)
+1. navigate to the  [Jenkins](http://ec2-54-91-166-84.compute-1.amazonaws.com:8080/)
 2. user the test credentials to login :
 username :  testuser
 password :  abc123
